@@ -1,0 +1,50 @@
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dialog-content h4 {
+    color: rgb(209, 70, 70);
+}
+
+.dialog-content h5 {
+    color: rgb(65, 85, 195);
+}
+
+.dialog-content label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dialog-content select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.dialog-button {
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: rgb(189, 59, 59);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

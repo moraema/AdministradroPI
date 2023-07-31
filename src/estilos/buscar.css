@@ -1,0 +1,145 @@
+.buscar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.buscar-content {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.buscar-input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+
+.buscar-button {
+    padding: 0.5rem 1rem;
+    background-color: rgb(204, 45, 45);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buscar-results {
+    margin-top: 2rem;
+}
+
+.buscar-message {
+    font-size: 1.2rem;
+}
+
+.buscar-table-container {
+    overflow-x: auto;
+}
+
+.buscar-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.buscar-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+.buscar-table td {
+    padding: 1rem;
+    border: 1px solid #ddd;
+}
+
+
+/* Estilos para pantallas pequeñas */
+
+@media (max-width: 767px) {
+    .buscar-input {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .buscar-button {
+        width: 100%;
+    }
+    .buscar-table {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+}
+
+
+/* Estilos para pantallas medianas y grandes */
+
+@media (min-width: 768px) {
+    .buscar-input {
+        width: 300px;
+        margin-right: 1rem;
+    }
+    .buscar-button {
+        width: auto;
+    }
+    .buscar-table {
+        width: 83%;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 20px;
+  }
+  
+  @media only screen and (max-width: 575px) {
+    /* Estilos para dispositivos móviles de tamaño pequeño, como Samsung, Huawei, Xiaomi, Oppo, iPhone, etc. */
+    .container {
+      padding: 0 10px;
+    }
+    
+    /* Agrega aquí los estilos específicos para dispositivos móviles de tamaño pequeño */
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* Estilos para dispositivos móviles de tamaño mediano, como Samsung, Huawei, Xiaomi, Oppo, iPhone, etc. */
+    .container {
+      /* Ajusta los estilos según tus necesidades */
+    }
+    
+    /* Agrega aquí los estilos específicos para dispositivos móviles de tamaño mediano */
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para laptops y pantallas de tamaño pequeño a mediano */
+    .container {
+      /* Ajusta los estilos según tus necesidades */
+    }
+    
+    /* Agrega aquí los estilos específicos para laptops y pantallas de tamaño pequeño a mediano */
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Estilos para laptops y pantallas de tamaño mediano a grande */
+    .container {
+      /* Ajusta los estilos según tus necesidades */
+    }
+    
+    /* Agrega aquí los estilos específicos para laptops y pantallas de tamaño mediano a grande */
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    /* Estilos para pantallas grandes de computadoras */
+    .container {
+      /* Ajusta los estilos según tus necesidades */
+    }
+    
+    /* Agrega aquí los estilos específicos para pantallas grandes de computadoras */
+  }
+  

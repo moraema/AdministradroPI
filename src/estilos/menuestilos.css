@@ -1,0 +1,114 @@
+.App {
+    text-align: center;
+}
+
+.red-box {
+    position: relative;
+    height: 100px;
+    width: auto;
+    background-color: rgb(220, 62, 62);
+    display: flex;
+    align-items: center;
+}
+
+.service-row {
+    margin-top: 20px;
+}
+
+.logo-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 10px;
+}
+
+.logo {
+    height: 100px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: auto;
+    max-width: 50%;
+}
+
+.logo2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100px;
+    max-width: 50%;
+    width: auto;
+}
+
+.white-text {
+    color: white;
+}
+
+.card-container {
+    margin-top: 40px;
+    margin-top:"3vw";
+    box-shadow: 0 2px 4px rgb(220, 62, 62);
+}
+
+.custom-card {
+    border: 5px solid rgb(220, 62, 62);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgb(220, 62, 62);
+    opacity: 1;
+    transition: opacity 0.3s ease; 
+    transition: transform 0.3s ease; 
+}
+
+.custom-card:hover {
+  opacity: 0.8; 
+  transform: scale(1.05);
+}
+
+.circle-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(220, 62, 62);
+    margin: 0 auto 20px;
+}
+
+.card-image {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.logout-button-container {
+    position: absolute;
+    bottom: 20px;
+    top: 30px;
+    right: 135px;
+}
+
+.logout-button {
+    background-color: rgb(11, 94, 215);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .circle-image {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+.internet-quote {
+    margin-top: 0px;
+    font-size: 17px;
+    color: #333;
+    text-align: center;
+}
